@@ -1,0 +1,293 @@
+/* BODY */
+
+body {
+    margin: 0;
+    padding: 20px;
+
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.6;
+
+    color: #5c3a42;
+    background: linear-gradient(#fff5f7, #fce4ec);
+}
+
+
+/* HEADINGS */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+
+    color: white;
+    background: linear-gradient(90deg, #d98ca0, #efb6c5, #d98ca0);
+
+    width: 80%;
+    height: auto;
+
+    padding: 20px;
+    margin: 20px auto;
+
+    border: 4px solid #b9677f;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    color: #a6536b;
+
+    margin: 25px;
+}
+
+
+/* NAVIGATION LINKS */
+
+.nav-link {
+    color: #9b4f68;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    background-color: #ffe3eb;
+
+    padding: 10px;
+    margin: 5px;
+
+    border: 2px solid #d98ca0;
+}
+
+
+/* LINK STATES */
+
+.nav-link:link {
+    color: #9b4f68;
+}
+
+.nav-link:visited {
+    color: #8f4d62;
+}
+
+.nav-link:hover {
+    color: white;
+    background: linear-gradient(90deg, #d98ca0, #c97891);
+    text-decoration: underline;
+}
+
+.nav-link:active {
+    color: white;
+    background-color: #a6536b;
+}
+
+
+/* PROFILE INFORMATION */
+
+.profile-info {
+    text-align: center;
+    line-height: 1.8;
+
+    font-family: Georgia, serif;
+    font-size: 17px;
+
+    color: #63434b;
+    background-color: #fffafa;
+
+    width: 80%;
+    height: auto;
+
+    padding: 20px;
+    margin: 20px auto;
+
+    border: 3px solid #e3a2b4;
+
+    opacity: 0.95;
+}
+
+
+/* SECTION TITLES */
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+
+    color: #a6536b;
+
+    margin: 25px;
+    padding: 10px;
+
+    border-bottom: 2px solid #d98ca0;
+}
+
+
+/* LISTS */
+
+ul {
+    list-style-type: circle;
+    text-align: center;
+
+    background: linear-gradient(90deg, #fff0f4, #fff8fa);
+
+    width: 70%;
+
+    padding: 20px 40px;
+    margin: 20px auto;
+
+    border: 2px solid #e3a2b4;
+}
+
+ol {
+    list-style-type: lower-roman;
+    text-align: center;
+
+    background: linear-gradient(90deg, #fff0f4, #fff8fa);
+
+    width: 70%;
+
+    padding: 20px 40px;
+    margin: 20px auto;
+
+    border: 2px solid #e3a2b4;
+}
+
+/* TABLE */
+
+table {
+    width: 70%;
+    text-align: center;
+
+    margin: 20px auto;
+
+    background-color: #fff8fa;
+
+    border: 2px solid #d98ca0;
+}
+
+.about-table {
+    float: right;
+
+    width: 45%;
+
+    margin: 10px 25px 20px 10px;
+
+    border: 2px solid #d98ca0;
+}
+
+
+/* MULTIMEDIA ELEMENTS */
+
+
+img {
+    float: inline-start;
+    width: 300px;
+    height: 250px;
+
+    padding: 5px;
+    margin: 10px;
+
+    border: 3px solid #d98ca0;
+
+    opacity: 0.95;
+}
+
+video {
+    width: 70%;
+    height: auto;
+
+    margin: 20px;
+
+    border: 3px solid #d98ca0;
+
+    opacity: 0.95;
+}
+
+
+/* MAIN HEADER */
+
+#main-header {
+    position: relative;
+
+    top: 0;
+    left: 0;
+
+    text-align: center;
+
+    color: white;
+    background: radial-gradient(pink, palevioletred);
+
+    padding: 15px;
+    margin: 20px;
+
+    border: 3px solid #a6536b;
+}
+
+
+/* CONTACT */
+
+.contact-form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+
+    border: 3px solid pink;
+
+    text-align: center;
+
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+    /* POSITION */
+    position: relative;
+
+    /* Z-INDEX */
+    z-index: 2;
+}
+
+/* FORM LABELS */
+
+.form-label {
+    color: #9b4f68;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    margin: 10px;
+}
+
+
+/* BUTTON */
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding: 10px 20px;
+    margin: 10px;
+
+    border: 2px solid #b9677f;
+}
+
+.primary {
+    color: white;
+    background: radial-gradient(pink, palevioletred);
+}
